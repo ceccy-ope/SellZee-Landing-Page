@@ -5,7 +5,7 @@ import Rectangle26 from '../assets/Rectangle 26.png'
 
 const Main5 = () => {
   return (
-    <div className="h-[80vh] mt-40">
+    <div className="h-[80vh] mt-40 mb-28">
       <div className="">
         <h1 className="text-3xl font-bold mb-3">User's Review</h1>
         <p className="text-xs">

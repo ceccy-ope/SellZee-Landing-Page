@@ -4,9 +4,9 @@ import back from '../assets/back.png'
 
 const Main3 = () => {
   return (
-    <div className="relative mb-5 ">
-      <img className="absolute top-0 left-0" src={back} alt="" />
-      <img className="absolute top-40 left-32 w-[75%]" src={front} alt="" />
+    <div className=" h-96 flex justify-center items-center mb-40">
+      <img className="absolute" src={back} alt="" />
+      <img className="z-50 w-[70%] absolute " src={front} alt="" />
     </div>
   );
 }
